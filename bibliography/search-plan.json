@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "through": "2026-11-08",
+  "year_from": 2017,
+  "scope": "One focused review: human-agency. Incremental candidates are separate from reviewed publications.",
+  "strategies": [
+    {
+      "id": "relevance",
+      "label": "Методы и постановка задачи",
+      "sort": "relevance",
+      "order": "descending",
+      "limit": 60,
+      "query": "main"
+    },
+    {
+      "id": "recent",
+      "label": "Последние публикации",
+      "sort": "submittedDate",
+      "order": "descending",
+      "limit": 50,
+      "query": "main"
+    },
+    {
+      "id": "earlier",
+      "label": "Ранние работы",
+      "sort": "submittedDate",
+      "order": "ascending",
+      "limit": 100,
+      "query": "main"
+    },
+    {
+      "id": "evaluation",
+      "label": "Оценка, ограничения и надёжность",
+      "sort": "relevance",
+      "order": "descending",
+      "limit": 40,
+      "query": "evaluation"
+    }
+  ],
+  "topics": {
+    "human-agency": {
+      "main": "(all:\"overreliance\" OR all:\"cognitive forcing\" OR all:\"skill formation\" OR all:\"critical thinking\") AND (all:\"AI\" OR all:\"artificial intelligence\")",
+      "evaluation": "all:\"overreliance\" AND all:\"evaluation\"",
+      "must_match": [
+        "overreliance|cognitive[ -]+forcing|skill[ -]+formation|critical[ -]+thinking",
+        "AI|artificial intelligence"
+      ]
+    }
+  }
+}

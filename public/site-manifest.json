@@ -1,0 +1,21 @@
+{
+  "kind": "review-forge-public-site",
+  "files": {
+    "app.js": "858bf2956dc234af9184053b2c8fbf8b62fb4d5b78ce08c83603de171028ba5c",
+    "data/discovery.json": "05ce0a5283df56df723691cb49dbbd7ccc352fa38fda5d4551c5bb1704499c7d",
+    "data/library.json": "783c9c24b58835eabad18e728b33768636d6932ca4a56d9f1c9b124ae8e1cf31",
+    "data/reviews/human-agency/editorial-2026-11-22.2.json": "760a4f0fce353b4ee230df8f448749359f641b4d181aa5ed0d8e1ce995970690",
+    "data/reviews/human-agency/editorial-2026-11-22.json": "1314e4c4171872e77baf840dc509985736beac8b20556bfa9b1f5a41d754cab8",
+    "data/search-method.json": "7049df6201cba591f8de524be58594580d3e01b71fb5d7613430f8e68ea722d5",
+    "data/topics/human-agency.json": "dcb64aa0c7b2594543ee3793a9ad72ea0518cb6202ee463128bf023bed5342ee",
+    "exports/human-agency/editorial-2026-11-22/index.html": "1270a6cf6bccc72840e9cbf5d4f6d930f2cba1d21c884b473be34b3eb2641330",
+    "exports/human-agency/editorial-2026-11-22/references.bib": "3d53a1a699b3624d22ef15d878f7af39aec2eb31e38cc3d2fcdf06d62bbd2bff",
+    "exports/human-agency/editorial-2026-11-22.2/index.html": "419111206c340db6f39c3e22b37dd53d7c9ba632423c858c93455c3550c69172",
+    "exports/human-agency/editorial-2026-11-22.2/references.bib": "fb903c0a7d3ff6b78e048636b4a4894f1d9a94a266196ccf9a17bf64c4bd1d19",
+    "exports/reading-lists/human-agency/references.bib": "fb903c0a7d3ff6b78e048636b4a4894f1d9a94a266196ccf9a17bf64c4bd1d19",
+    "index.html": "9978e2488c4fb6137d16c3bc317265cb6b1f61f98fc4412ee4e08264c1d02fae",
+    "mark.svg": "0b0223a5be0c67a3c8fe3c9a78cc817a8a4fda609ca495427aede09f1f185bfb",
+    "related.html": "c0da81a00a0782e74578585b7b0d435ac7e679496efa8a34ea8eb721a0e21609",
+    "style.css": "b286f3584f978b218543fdc50b774bf4f0ea52be39847421dd7dda7fe452dd35"
+  }
+}
